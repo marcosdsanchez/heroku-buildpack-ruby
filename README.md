@@ -177,6 +177,11 @@ Rack (config.ru is detected)
 * everything from Ruby
 * sets RACK_ENV=production
 
+Jekyll ('jekyll' gem is detected)
+
+* everything from rack
+* runs `bundle exec jekyll build`
+
 Rails 2 (config/environment.rb is detected)
 
 * everything from Rack
@@ -189,4 +194,3 @@ Rails 3 (config/application.rb is detected)
 * everything from Rails 2
 * install rails 3 plugins
   * [rails3_server_static_assets](https://github.com/pedro/rails3_serve_static_assets)
-
